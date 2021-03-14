@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*GENAREL SECTION*/
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*HEADER START*/
+/*Top bar start*/
+.top-bar {
+	padding: 2px 0;
+	background-color: #000;
+	font-size: .8em;
+}
+.top-bar a {
+	color: #fff;
+	text-decoration: none;
+}
+.top-bar .phone-number {
+	margin-top: 6px;
+}
+.top-bar .phone-number svg {
+	color: #fff;
+	margin-right: 8px;
+}
+.top-bar .social-media a {
+	transition: .5s;
+	border-radius: 4px;
+}
+.top-bar .social-media a:hover {
+	color: #000;
+	background-color: #fff;
+}
+/*Top bar end*/
+
+/*Navigation bar start*/
+.navigation .navbar {
+	border-bottom: 1px solid #787071;
+}
+.navigation .navbar .navbar-brand img {
+	width: 150px;
+	height: auto;
+}
+.navigation .navbar ul li a {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navigation .navbar ul ul li a {
+	text-transform: capitalize;
+	font-weight: 600;
+}
+/*Navigation bar end*/
+/*HEADER END*/
+
+/*PAGE CONTENT START*/
+/*Intro section start*/
+.intro-section .item {
+	margin-top: 115px;
+}
+.intro-section .item .slider-1 {
+	background-image: url(assets/img/intro_bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.intro-section .item .slider-2 {
+	background-image: url(assets/img/intro_bg_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.intro-section .item .slider-content {
+	padding: 350px 0;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.intro-section .item .slider-content h1 {
+	font-size: 4em;
+	font-weight: 800;
+}
+.intro-section .item .slider-content p {
+	font-size: 1.4em;
+	font-weight: 600;
+}
+/*Intro section end*/
+
+/*Enrolled section start*/
+.enrolled-section {
+	border-bottom: 2px solid lightgray;
+}
+.enrolled-section .title h2,
+.all-courses .title h2	{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #333;
+}
+/*Enrolled section end*/
+/*PAGE CONTENT END*/
+
+/*FOOTER SECTION START*/
+.footer-section {
+	color: #fff;
+	background-color: #000;
+	font-size: 14px;
+	padding: 8px 0;
+}
+/*FOOTER SECTION END*/
+
+/*Language section*/
+.language {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.language select {
+	padding: 7px 5px;
+	color: #fff;
+	background-color: #1AB394;
+	box-sizing: border-box;
+	border: .5px solid #999;
+}
